@@ -34,7 +34,7 @@ class Portchecker:
         self.port_number = port_number
     
     def portcheker(self):
-        if 1<=self.port_number<=65535:
+        if 1 <=self.port_number <= 65535:
             print("You entered the right port number")
         else:
             print("Please enter the correct port number")
