@@ -24,8 +24,13 @@ def sum (a,b):
 
 my_math = {
     'title': "Math dict",
-    'sum': sum 
+    'sum': 48
 }
 
-my_math_json = json.dumps(my_math)
-print(my_math_json)
+my_math_json = json.dumps(my_math, indent=2)
+#print(my_math_json)
+
+file  = open('text.txt', 'w')
+file.write(my_math_json)
+
+
