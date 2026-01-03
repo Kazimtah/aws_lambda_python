@@ -1,0 +1,80 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "c9b083a5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "167.0\n",
+      "70\n",
+      "-32\n",
+      "38.57142857142857\n"
+     ]
+    }
+   ],
+   "source": [
+    "class TemperatureData:\n",
+    "    def __init__(self, name, readings, celcilus):\n",
+    "        self.name = name\n",
+    "        self.readings = readings \n",
+    "        self.celcilus = celcilus\n",
+    "        \n",
+    "    def convert_to_franheit(self):\n",
+    "        Faranheit = (self.celcilus * 9/5) + 32\n",
+    "        return Faranheit\n",
+    "        \n",
+    "    def calculate_average_temp(self):\n",
+    "        average_temp = sum(self.readings )/len(self.readings)\n",
+    "        return average_temp\n",
+    "    \n",
+    "    def find_high_temp(self):\n",
+    "        high_temperature = max(self.readings)\n",
+    "        return high_temperature\n",
+    "    \n",
+    "    def find_low_temp(self):\n",
+    "        low_temperature = min(self.readings)\n",
+    "        return low_temperature \n",
+    "    \n",
+    "forest = TemperatureData('Amazon',[65,45,70,45,32,45,-32], 75)\n",
+    "print(forest.convert_to_franheit())\n",
+    "print(forest.find_high_temp())\n",
+    "print(forest.find_low_temp())\n",
+    "print(forest.calculate_average_temp())\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "582f9668",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
