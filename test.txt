@@ -1,0 +1,1 @@
+First line in the fileSecond line in the new file 
