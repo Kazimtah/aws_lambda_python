@@ -2,19 +2,10 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
-   "id": "1c5095b2",
+   "execution_count": null,
+   "id": "e381805a",
    "metadata": {},
-   "outputs": [
-    {
-     "ename": "SyntaxError",
-     "evalue": "EOL while scanning string literal (<ipython-input-1-e51536fec7c9>, line 20)",
-     "output_type": "error",
-     "traceback": [
-      "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-e51536fec7c9>\"\u001b[0;36m, line \u001b[0;32m20\u001b[0m\n\u001b[0;31m    print(f\" I am thinking of a random country from the list {country_keys_string}. Guess the 2025 population of this country\u001b[0m\n\u001b[0m                                                                                                                             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m EOL while scanning string literal\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import random \n",
     "TOTAL_GUESS = 2\n",
@@ -35,8 +26,8 @@
     "    country_keys_string = \", \" .join(country_keys)\n",
     "    random_country_key =  random.choice(country_keys)\n",
     "    \n",
-    "    print(f\" I am thinking of a random country from the list {country_keys_string}. Guess the 2025 population of this country\n",
-    "           {TOTAL_GUESS} times. I will tell you so high\")\n",
+    "    print(f\"I'm thinking of a random country from the list {country_keys_string}. Guess the 2025 population of this country\n",
+    "           {TOTAL_GUESS} times. I will tell you 'if 'your guess 'is 'so high\")\n",
     "          \n",
     "for gues_count in range(TOTAL_GUESS):\n",
     "          print(f\" You have {TOTAL_GUESS - gues_count} guesses remaining.\")\n",
@@ -67,22 +58,6 @@
     "main()\n",
     "          "
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "64bbbf80",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "384aa9d7",
-   "metadata": {},
-   "outputs": [],
-   "source": []
   }
  ],
  "metadata": {
