@@ -2,8 +2,13 @@
  "cells": [
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 6,
    "id": "ffcfb243",
+=======
+   "execution_count": 4,
+   "id": "12bd60bb",
+>>>>>>> list_dictionary
    "metadata": {},
    "outputs": [],
    "source": [
@@ -16,8 +21,13 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 7,
    "id": "4d0c45e3",
+=======
+   "execution_count": 5,
+   "id": "ce3872f2",
+>>>>>>> list_dictionary
    "metadata": {},
    "outputs": [
     {
@@ -25,17 +35,22 @@
      "output_type": "stream",
      "text": [
       "<class '__main__.Car'>\n",
+<<<<<<< HEAD
       "True\n",
       "car is moving\n",
       "None\n",
       "Car is stopping\n",
       "None\n"
+=======
+      "True\n"
+>>>>>>> list_dictionary
      ]
     }
    ],
    "source": [
     "my_car = Car()\n",
     "print(type(my_car))\n",
+<<<<<<< HEAD
     "print(isinstance(my_car, Car))\n",
     "print(my_car.move())\n",
     "print(my_car.stop())"
@@ -104,12 +119,19 @@
     "services_name.status()\n",
     "services_name.stop()\n",
     "services_name.start()"
+=======
+    "print(isinstance(my_car, Car))"
+>>>>>>> list_dictionary
    ]
   },
   {
    "cell_type": "code",
    "execution_count": null,
+<<<<<<< HEAD
    "id": "df22bf08",
+=======
+   "id": "9c62a85c",
+>>>>>>> list_dictionary
    "metadata": {},
    "outputs": [],
    "source": []

@@ -34,10 +34,22 @@ class Portchecker:
         self.port_number = port_number
     
     def portcheker(self):
+<<<<<<< HEAD
         if 1<=self.port_number<=65535:
+=======
+        if 1 <=self.port_number <= 65535:
+>>>>>>> list_dictionary
             print("You entered the right port number")
         else:
             print("Please enter the correct port number")
 
 p = Portchecker(22)
+<<<<<<< HEAD
 p.portcheker()
+=======
+p.portcheker()
+print(isinstance(p, Portchecker))
+print(dir(p))
+print(issubclass(object,Portchecker))
+print(issubclass(Portchecker, object))
+>>>>>>> list_dictionary
