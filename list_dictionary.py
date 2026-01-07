@@ -2,16 +2,28 @@
  "cells": [
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 2,
    "id": "94beb8a9",
+=======
+   "execution_count": 3,
+   "id": "a9b34fb7",
+>>>>>>> refs/remotes/origin/main
    "metadata": {},
    "outputs": [
     {
      "ename": "SyntaxError",
+<<<<<<< HEAD
      "evalue": "invalid syntax (<ipython-input-2-4c059b538da6>, line 34)",
      "output_type": "error",
      "traceback": [
       "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-2-4c059b538da6>\"\u001b[0;36m, line \u001b[0;32m34\u001b[0m\n\u001b[0;31m    \"Instance_id\" = \"i-05gfke64k30jk\"\u001b[0m\n\u001b[0m                  ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+=======
+     "evalue": "invalid syntax (<ipython-input-3-995b00ab53ca>, line 34)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-3-995b00ab53ca>\"\u001b[0;36m, line \u001b[0;32m34\u001b[0m\n\u001b[0;31m    \"Instance_id\" = \"i-05gfke64k30jk\",\u001b[0m\n\u001b[0m                  ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+>>>>>>> refs/remotes/origin/main
      ]
     }
    ],
@@ -67,7 +79,11 @@
   {
    "cell_type": "code",
    "execution_count": null,
+<<<<<<< HEAD
    "id": "0ad2df5c",
+=======
+   "id": "2ae963ce",
+>>>>>>> refs/remotes/origin/main
    "metadata": {},
    "outputs": [],
    "source": []
@@ -75,7 +91,11 @@
   {
    "cell_type": "code",
    "execution_count": null,
+<<<<<<< HEAD
    "id": "5e9cb26b",
+=======
+   "id": "00c4fcea",
+>>>>>>> refs/remotes/origin/main
    "metadata": {},
    "outputs": [],
    "source": []
@@ -83,7 +103,11 @@
   {
    "cell_type": "code",
    "execution_count": null,
+<<<<<<< HEAD
    "id": "42b386b4",
+=======
+   "id": "f8a26616",
+>>>>>>> refs/remotes/origin/main
    "metadata": {},
    "outputs": [],
    "source": []
@@ -91,7 +115,11 @@
   {
    "cell_type": "code",
    "execution_count": null,
+<<<<<<< HEAD
    "id": "c4ca396c",
+=======
+   "id": "a398e018",
+>>>>>>> refs/remotes/origin/main
    "metadata": {},
    "outputs": [],
    "source": []
@@ -99,7 +127,35 @@
   {
    "cell_type": "code",
    "execution_count": null,
+<<<<<<< HEAD
    "id": "870cec58",
+=======
+   "id": "01974538",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b11b01e4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ab2df8b1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "64f60e2a",
+>>>>>>> refs/remotes/origin/main
    "metadata": {},
    "outputs": [],
    "source": []
