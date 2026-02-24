@@ -7,5 +7,5 @@ students = [
 {'nmae': 'Abdul', 'score':20}
 ]
 
-students.sort(key= lambda student: student['score'])
+students.sort(key= lambda student: student['score'], reverse=True)
 print(students)
